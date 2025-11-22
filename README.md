@@ -21,7 +21,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, ac
 
 ## Live Demo
 You can view my portfolio online at:  
-[https://yourusername.github.io/my-portfolio/](https://yourusername.github.io/my-portfolio/)
+[https://my-portfolio-virid-ten-41.vercel.app/](https://my-portfolio-virid-ten-41.vercel.app/)
 
 ## Author
 **Divyanshu Yaduvanshi**  
