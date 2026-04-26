@@ -295,17 +295,20 @@ section.visible .about-photo {
   <button onclick="scrollToSection('contact')">Contact</button>
   
 </nav>
-<img src="image/cuteboy.png" alt="Cute Boy" class="cute-boy" onclick="alert('Hi there! 😊')">
-<!-- INTRO SECTION -->
+-- INTRO SECTION -->
 
-<div class="intro">
-  <div class="box" id="welcomeBox">
-    <h2>Welcome</h2>
-  </div>
-  <!-- Animated Cute Boy Image -->
-  <img src="image/cuteboy.png" alt="" class="cute-boy">
-  <audio id="hoverSound" src="music/hover.mp3" preload="auto" ></audio>
+<section id="hero">
+  <h1>Hi, I'm <span>Divyanshu</span></h1>
+  <h2>Full Stack Developer</h2>
+  <p>I build scalable web applications.</p>
+
+  <a href="#projects">View Projects</a>
+  <div>
+    <audio id="hoverSound" src="music/hover.mp3" preload="auto" ></audio>
 </div>
+</section>
+  
+
 
 <!-- SECTIONS -->
 <section id="about">
@@ -345,14 +348,11 @@ High School (10th Grade) – CBSE Board, Kendriya Vidyalaya Talbehat (2019)-->
   </ul>
 </section>
 
-<section id="skills">
-  <h2>Additional Skills</h2>
-  <ul>
-    <li>Frontend: HTML, CSS, JS, React</li>
-    <li>Backend: Node.js, Express</li>
-    <li>Database: MongoDB, MySQL</li>
-  </ul>
-</section>
+<div class="skill">
+  <p>React</p>
+  <div class="bar"><div class="fill" style="width:80%"></div></div>
+</div>
+  
 
 <section id="awards">
   <h2>Awards</h2>
@@ -383,6 +383,19 @@ High School (10th Grade) – CBSE Board, Kendriya Vidyalaya Talbehat (2019)-->
       </a>
     </li>
   </ul>
+</section>
+  <a href="resume.pdf" download class="btn">Download Resume</a>
+ 
+  <section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>RentBuddy</h3>
+    <p>Rental platform for household items</p>
+    <a href="#">Live Demo</a>
+    <a href="#">GitHub</a>
+  </div>
+
 </section>
 <footer>© 2025 My Portfolio | Designed by Divyansh Singh </footer>
 
